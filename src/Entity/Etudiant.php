@@ -1,9 +1,10 @@
 <?php
-require_once "personne.php";
-require_once "interface.php";
+namespace App\Entity;
+
+use App\Entity\Personne;
+use App\Entity\Affichable;
 
 class Etudiant extends Personne implements Affichable {
-
 
     public function __construct(int $id, string $nom, int $age) {
         parent::__construct($id, $nom, $age);

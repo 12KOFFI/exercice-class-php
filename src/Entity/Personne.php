@@ -1,4 +1,5 @@
 <?php
+namespace App\Entity;
 
 class Personne {
     private int $id;
